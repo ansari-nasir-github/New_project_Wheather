@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wheather_Api | Project</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="upper_part">
+           <div> <h1>Wheather Api</h1> </div>
+           <div> <input id="location" type="text" placeholder="Location"> </div>
+           <div> <input id="access_token" type="text" placeholder="Access token"> </div>
+           <div> <button class="button" id="submit" onclick="displayData()">submit</button> </div>
+        </div>
+        <div class="lower_part">
+            <h1 id="lower_head">Wheather Data</h1>
+            <div id="wheather_details">
+                <!-- <div id="location_detail">Location:</div>
+                <div id="lat_long" style="display:flex" flex-direction = "row">
+                    <div id="lat"> Lat: </div>
+                    <div id="long"> Long: </div>
+            
+                </div>
+                <div id="TimeZone">TimeZone:</div>
+                <div id="Wind_Speed">Wind Speed:</div>
+                <div id="Pressure">Pressure:</div>
+                <div id="Humidity">Humidity:</div>
+                <div id="Wind_Direction">Wind Direction:</div>
+                <div id="UV_Index">UV Index:</div>
+                <div id="Feels_Like">Feels Like:</div> -->
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
